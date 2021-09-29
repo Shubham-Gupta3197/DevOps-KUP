@@ -65,7 +65,6 @@ The getty command sets and manages terminal lines and ports. The getty comma
 
 | Item | Description |
 |------|-------------|
-
 | -d | Provides debugging information. |
 | -M | Specifies the path to an alternate message of the day file. If not specified, this value is /etc/motd by default. |
 | -N | Causes getty to bypass any checking for the process ID in the /etc/utmp file. This allows a process other than the lowest login shell to exec getty. |
