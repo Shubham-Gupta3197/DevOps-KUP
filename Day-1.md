@@ -1,6 +1,6 @@
-						                    ## **Day – 1**
-								  ### **Overview of Linux**
-							          #### **Q&A**
+						                    ## Day – 1
+							     ### Overview of Linux
+							          #### Q&A**
 								        
 **Q1. What is the GNU project?**
 
