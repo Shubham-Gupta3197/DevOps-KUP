@@ -61,7 +61,7 @@ The getty command sets and manages terminal lines and ports. The getty comma
 ## Syntax
 **getty** [ [ -r | -u | -U ] [ -d ] [ -H HeraldString ] [ -M motdFile ] [ -N ] ] PortName
 
-###Flags
+# Flags
 
 | Item | Description |
 |------|-------------|
