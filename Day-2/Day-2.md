@@ -10,6 +10,7 @@ A signal is just like an interrupt; when it is generated at the user level, a ca
 **There are two types of signals:**
 
 `Maskable:` signals which can be changed or ignored by the user (e.g., Ctrl+C).
+
 `Non-Maskable:` signals which cannot be changed or ignored by the user. These typically occur when the user is signaled for non-recoverable hardware errors.
 
 **Q3. Purpose of hidden files?**
