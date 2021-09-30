@@ -52,6 +52,6 @@ usr/sbin contains binary files for the commands that requires root priviledges a
 
 **Q11. Examples of awk, sed, grep?**
 
-`awk` awk command is a scripting language used to manipulate data & generating reports. It requires no compiling and allows user to use **variables, String function, numeric function, logical operator.**
-![awk examples](/home/knoldus/Pictures  "AWK Examples") 
+`AWK` awk command is a scripting language used to manipulate data & generating reports. It requires no compiling and allows user to use **variables, String function, numeric function, logical operator.**
+
 
