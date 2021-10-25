@@ -230,7 +230,7 @@ We can persist rules in iptables by using following commands :
 
 `sudo netfilter-persistent save`
 
-		OR
+or
 
 `sudo iptables-save > /etc/iptables/rules.v4`
 
@@ -256,7 +256,7 @@ SSH, or Secure Shell, is a remote administration protocol that allows users to c
 
 **Q33. Difference between HTTP & HTTPS?**
 
-|**HTTP** |  | **Https** |
+|**HTTP** | **Https** |
 |-----|-----|-----|
 | HTTP stands for Hypertext Transfer Protocol. | HTTPS stands for Hypertext Transfer Protocol Secure. |
 | It is an application layer protocol for transmitting hypermedia documents. | It is an extension of HTTP. |
