@@ -228,11 +228,11 @@ Yes, With iptable, we can apply rules according to the domain name. There are a 
 
 We can persist rules in iptables by using following commands :
 
-`sudo netfilter-persistent save`
+	`sudo netfilter-persistent save`
 
 or
 
-`sudo iptables-save > /etc/iptables/rules.v4`
+	`sudo iptables-save > /etc/iptables/rules.v4`
 
 **Q29. How can we save rules in iptables?**
 
@@ -257,7 +257,7 @@ SSH, or Secure Shell, is a remote administration protocol that allows users to c
 **Q33. Difference between HTTP & HTTPS?**
 
 |**HTTP** | **Https** |
-|-----|-----|-----|
+|-----|-----|
 | HTTP stands for Hypertext Transfer Protocol. | HTTPS stands for Hypertext Transfer Protocol Secure. |
 | It is an application layer protocol for transmitting hypermedia documents. | It is an extension of HTTP. |
 | It was designed for communication between web browser and web server. | It is used for server communication over a network. |
