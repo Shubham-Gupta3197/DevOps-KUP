@@ -142,9 +142,10 @@ ZFS stands for Zettabyte File System. It is a local file system and logical volu
 
 **Q18. How to check the port number of a process?**
 
-We can use the following command : - sudo netstat -ano -p tcp
+We can use the following command : - 
+	`sudo netstat -ano -p tcp`
 			OR
-use lsof -i :port number
+	`lsof -i :port number`
 
 **Q19. What is Unix Time Sharing (UTS)?**
 
@@ -256,7 +257,7 @@ SSH, or Secure Shell, is a remote administration protocol that allows users to c
 
 **Q33. Difference between HTTP & HTTPS?**
 
-|**HTTP** | **Https** |
+|**HTTP** | **HTTPS** |
 |-----|-----|
 | HTTP stands for Hypertext Transfer Protocol. | HTTPS stands for Hypertext Transfer Protocol Secure. |
 | It is an application layer protocol for transmitting hypermedia documents. | It is an extension of HTTP. |
@@ -337,22 +338,22 @@ ssh-agent is a key manager for SSH. It holds your keys and certificates in memor
 
 **Q49. Create a unit file for any application.**
 
-[Unit]
-Description=The NGINX HTTP and reverse proxy server
-After=syslog.target network-online.target remote-fs.target nss-lookup.target
-Wants=network-online.target
+	`[Unit]
+	Description=The NGINX HTTP and reverse proxy server
+	After=syslog.target network-online.target remote-fs.target nss-lookup.target
+	Wants=network-online.target
 
-[Service]
-Type=forking
-PIDFile=/run/nginx.pid
-ExecStartPre=/usr/sbin/nginx -t
-ExecStart=/usr/sbin/nginx
-ExecReload=/usr/sbin/nginx -s reload
-ExecStop=/bin/kill -s QUIT $MAINPID
-PrivateTmp=true
+	[Service]
+	Type=forking
+	PIDFile=/run/nginx.pid
+	ExecStartPre=/usr/sbin/nginx -t
+	ExecStart=/usr/sbin/nginx
+	ExecReload=/usr/sbin/nginx -s reload
+	ExecStop=/bin/kill -s QUIT $MAINPID
+	PrivateTmp=true
 
-[Install]
-WantedBy=multi-user.target
+	[Install]
+	WantedBy=multi-user.target`
 
 
 **Q50. What is RHEL?**
